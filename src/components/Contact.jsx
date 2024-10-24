@@ -6,7 +6,6 @@ const Contact = () => {
   return (
     <div className="text-center my-20" id="contact">
       <h1 className="text-4xl font-bold mb-10 text-primary">Conecte-se comigo!</h1>
-      <p className="text-lg mb-2">Me encontre nas redes sociais</p>
       <p className="text-lg mb-6">
         <span className="wave">👋</span> Diga um olá ou siga-me nas minhas redes sociais.
         Estou ansiosa para te conhecer! 🚀
@@ -18,7 +17,7 @@ const Contact = () => {
         )}&body=${encodeURIComponent(body)}`}
       >
         {" "}
-        <button className="btn btn-primary">📧 Email!</button>
+        <button className="btn btn-primary">Email</button>
       </a>
       <a
         href="https://www.linkedin.com/in/maria-eduarda-benevenutti-8aa046238/"
