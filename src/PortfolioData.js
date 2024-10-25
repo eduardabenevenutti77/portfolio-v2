@@ -1,6 +1,8 @@
 import caca from "./assets/projetos/caca.png"
 import sampa from "./assets/projetos/sampa.png"
 import adivinha from "./assets/projetos/adivinha.png"
+import ecommerce from "./assets/projetos/ecommerce.png"
+import agl from "./assets/projetos/agl.png"
 const header = {
   homepage: "",
   title: "Maria Edª Benevenutti",
@@ -41,6 +43,21 @@ const projects = [
     image: adivinha,
     sourceCode: "https://github.com/eduardabenevenutti77/JogoAdivinha_v2",
     livePreview: "https://eduardabenevenutti77.github.io/JogoAdivinha_v2/frontend/index.html",
+  },
+  {
+    name: "Análise de E-commerce",
+    description:"Este projeto visa realizar uma análise comparativa entre duas plataformas de comércio eletrônico populares: Wix e Shopify. A análise abrange dois aspectos principais: retorno sobre o investimento (ROI) e análise PERT das tarefas.",
+    stack: ["Python", "Github", "Vscode"],
+    image: ecommerce,
+    sourceCode: "https://github.com/eduardabenevenutti77/e-commerce",
+    livePreview: "https://github.com/eduardabenevenutti77/e-commerce",
+  },
+  {
+    name: "Cadastro de bonificação - AGL <> ZOPU",
+    description:"O projeto é para desenvolver um sistema fullstack de gestão de bonificações na empresa AGL, com foco no cadastro e acompanhamento das bonificações dos colaboradores.",
+    stack: ["Figma"],
+    image: agl,
+    livePreview: "https://www.figma.com/design/kFsYTtc7yau2uLay6kwYhU/AGL?node-id=0-1&t=oXLbHAPalDVyNTri-1",
   },
 ];
 const skills = [
