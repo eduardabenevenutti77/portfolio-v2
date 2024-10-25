@@ -64,18 +64,12 @@ const skills = [
   "HTML",
   "CSS",
   "JavaScript",
-  "TypeScript",
   "React",
-  "Redux",
   "Tailwind CSS",
   "Material UI",
-  "Git",
-  "CI/CD",
-  "Jest",
-  "Enzyme",
 ];
 const contact = {
-  email: "sankitdev.official@gmail.com",
+  email: "mariaeduardabenevenutti77@gmail.com",
 };
 
 export { header, about, projects, skills, contact };
