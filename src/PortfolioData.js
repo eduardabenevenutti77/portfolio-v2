@@ -3,6 +3,8 @@ import sampa from "./assets/projetos/sampa.png"
 import adivinha from "./assets/projetos/adivinha.png"
 import ecommerce from "./assets/projetos/ecommerce.png"
 import agl from "./assets/projetos/agl.png"
+import wish from "./assets/projetos/wish.png"
+
 const header = {
   homepage: "",
   title: "Maria Edª Benevenutti",
@@ -20,6 +22,14 @@ const about = {
   },
 };
 const projects = [
+  {
+    name: "Wish Daily",
+    description:"Este projeto consiste em uma aplicação web que oferece conselhos aleatórios aos usuários de forma simples e rápida. Desenvolvida com React no frontend e Node.js no backend.",
+    stack: ["React", "Node.js", "MySQL", "XAMPP", "Github", "Vscode"],
+    image: wish,
+    sourceCode: "https://github.com/4m4nu4l4/Pagina-de-Conselhos",
+    // livePreview: "https://yumrun-b81a7.web.app/",
+  },
   {
     name: "Caça-Níquel em C++",
     description:"Projeto desenvolvido para conclusão da matéria de introdução a programação da 1ª fase de Análise e Desenvolvimento de Sistemas.",
