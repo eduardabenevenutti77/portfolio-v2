@@ -6,6 +6,7 @@ import agl from "./assets/projetos/agl.png"
 import wish from "./assets/projetos/wish.png"
 import sp from "./assets/projetos/sp.png"
 import cs from "./assets/projetos/cs.png"
+import escoteiro from "./assets/projetos/escoteiro.png"
 
 const header = {
   homepage: "",
@@ -30,6 +31,14 @@ const projects = [
     stack: ["Next.js", "Taiwland CSS", "Lucide Icons"],
     image: sp,
     livePreview: "https://github.com/eduardabenevenutti77/spotify",
+  },
+  {
+    name: "Escoteiro Pirabeiraba",
+    description:"O sistema web foi projetado para atender às necessidades específicas do grupo de escoteiros, simplificando a organização de eventos, o cadastro de membros e o registro de atividades. O projeto foi desenvolvido por estudantes sob a supervisão da professora Claudia, utilizando o framework React.",
+    stack: ["React", "CSS Module", "JS"],
+    image: escoteiro,
+    livePreview: "https://github.com/eduardabenevenutti77/escoteiroPirabeiraba",
+    livePreview: "https://escoteiropirabeiraba.onrender.com/",
   },
   {
     name: "ChronoSync ",
