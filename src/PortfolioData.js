@@ -4,6 +4,8 @@ import adivinha from "./assets/projetos/adivinha.png"
 import ecommerce from "./assets/projetos/ecommerce.png"
 import agl from "./assets/projetos/agl.png"
 import wish from "./assets/projetos/wish.png"
+import sp from "./assets/projetos/sp.png"
+import cs from "./assets/projetos/cs.png"
 
 const header = {
   homepage: "",
@@ -22,6 +24,21 @@ const about = {
   },
 };
 const projects = [
+  {
+    name: "Spotify",
+    description:"Recriação da interface web do Spotify utilizando Next.js, Tailwind CSS, pnpm e Lucide Icons. Este projeto foi desenvolvido para praticar habilidades em desenvolvimento front-end moderno, com foco em estilização responsiva e design dinâmico.",
+    stack: ["Next.js", "Taiwland CSS", "Lucide Icons"],
+    image: sp,
+    livePreview: "https://github.com/eduardabenevenutti77/spotify",
+  },
+  {
+    name: "ChronoSync ",
+    description:"ChronoSync é uma aplicação simples e elegante que implementa um cronômetro utilizando React. Ideal para acompanhar atividades em equipe, produtividade pessoal ou qualquer tarefa que necessite de controle de tempo.",
+    stack: ["React", "CSS3", "React Hooks"],
+    image: cs,
+    livePreview: "https://github.com/eduardabenevenutti77/ChronoSync",
+    livePreview: "https://chronosync.onrender.com/",
+  },
   {
     name: "Wish Daily",
     description:"Este projeto consiste em uma aplicação web que oferece conselhos aleatórios aos usuários de forma simples e rápida. Desenvolvida com React no frontend e Node.js no backend.",
