@@ -6,7 +6,7 @@ import agl from "./assets/projetos/agl.png"
 import wish from "./assets/projetos/wish.png"
 import sp from "./assets/projetos/sp.png"
 import cs from "./assets/projetos/cs.png"
-import escoteiro from "./assets/escoteiro.png"
+import escoteiro from "./assets/projetos/escoteiro.png"
 
 const header = {
   homepage: "",
